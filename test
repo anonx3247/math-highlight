@@ -1,0 +1,12 @@
+This is an example file,
+
+lets say I define tau = 3s the time to write something stupid.
+
+Let f = 1/tau be the frequency and E = 30kJ be an energy.
+
+
+We can define the energy of a photon with E = h * f
+
+lets define the function u:
+
+E(t) = E_0 * exp(-t/tau)

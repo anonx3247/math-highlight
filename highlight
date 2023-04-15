@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+from highlighter import Highlighter, symb
+
+import sys
+
+h = Highlighter()
+
+with open(sys.argv[1]) as f:
+    lines = [line for line in f]
+    h.hl(lines, symb)
+     
